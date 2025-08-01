@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom colors */
+  --color-medical-blue: #0066CC;
+  --color-soft-teal: #4DD0E1;
+  --color-warm-green: #00C853;
+  --color-light-gray: #F8F9FA;
+  --color-dark-charcoal: #2E3440;
+  --color-medium-gray: #6B7280;
+  --color-soft-red: #FF5252;
+  
+  /* Font family */
+  --font-family-inter: 'Inter', system-ui, sans-serif;
+}
+
+/* Base layer untuk mengaplikasikan font default */
+@layer base {
+  body {
+    font-family: var(--font-family-inter);
+  }
+}
